@@ -1,0 +1,21 @@
+Host *
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    StrictHostKeyChecking no
+
+Host github.com
+    ForwardAgent yes
+    ForwardX11 no
+    ForwardX11Trusted no
+    IdentityFile ~/sshkeys/github/einwolf_github_ed25519
+
+Host nodebox
+
+Host strongbox
+
+Host arcnova
+
+Host direflare
+
+Host everwind
